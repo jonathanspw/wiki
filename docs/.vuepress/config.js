@@ -126,9 +126,9 @@ module.exports = {
 	  '/Transparency'
     ],
     // AlmaLinux organization on GitHub
-    repo: 'AlmaLinux/',
+    repo: 'jonathanspw/',
     // wiki repository settings
-    docsRepo: 'AlmaLinux/wiki',
+    docsRepo: 'jonathanspw/wiki',
     docsDir: 'docs',
     docsBranch: 'master',
     // editing works only for users with the repository write-access so we
