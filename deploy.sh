@@ -11,6 +11,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:AlmaLinux/wiki.git master:gh-pages
+git push -f git@github.com:jonathanspw/wiki.git master:gh-pages
 
 popd
