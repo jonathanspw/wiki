@@ -5,6 +5,15 @@ module.exports = {
     ['link', { rel: "shortcut icon", type: 'image/png', href: "/images/logo.png"}],
   ],
   base: '/',
+  plugins: [
+    [
+      "vuepress-plugin-matomo":
+      {
+        'siteId': 2,
+        'trackerUrl': "https://matomo.almalinux.org/"
+      }
+    ]
+  ]
   themeConfig: {
     logo: '/images/logo.png',
     nav: [
