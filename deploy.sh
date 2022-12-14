@@ -4,6 +4,7 @@
 set -e
 
 npm run docs:build || yarn run docs:build || yarnpkg run docs:build
+npm install vuepress-plugin-matomo || yarn add vuepress-plugin-matomo
 
 pushd docs/.vuepress/dist
 
