@@ -13,7 +13,7 @@ module.exports = {
         'trackerUrl': "https://matomo.almalinux.org/"
       }
     ]
-  ]
+  ],
   themeConfig: {
     logo: '/images/logo.png',
     nav: [
