@@ -15,7 +15,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: AlmaLinux/wiki
+        TARGET_REPO: jonathanspw/wiki
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist/
