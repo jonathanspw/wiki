@@ -225,6 +225,6 @@ module.exports = {
     editLinks: false
   },
   plugins: [
-    ['matomo', {trackerUrl: 'https://matomo.almalinux.org/', siteId: '5'}]
+    ['matomo', {trackerUrl: 'https://matomo.almalinux.org/matomo.php', siteId: '5'}]
   ]
 }
