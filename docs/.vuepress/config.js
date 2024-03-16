@@ -223,5 +223,8 @@ module.exports = {
     // editing works only for users with the repository write-access so we
     // disabled it to avoid confusion
     editLinks: false
-  }
+  },
+  plugins: [
+    ['matomo', {trackerUrl: 'https://matomo.almalinux.org/', siteId: '5'}]
+  ]
 }
